@@ -1,38 +1,38 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Cookie&family=Courgette&family=Josefin+Sans:wght@300&family=Neonderthaw&family=Pacifico&family=Poppins:wght@300&family=Stalemate&family=Trade+Winds&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo{
+    font-family: 'Trade Winds', cursive;
+    font-size: 25px;
+    font-weight: 100;
 }
+.navbar{
+    border-bottom: 1px solid grey;
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    align-items: center;
+    justify-content: space-around;
+   /* background-color: rgb(242, 206, 219); */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.navlink{
+    display: flex;
+    /* border: 2px solid green; */
+    gap: 5.0rem;
+    align-items: center;
 }
+.navlink a{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    color: gray;
 
-.App-link {
-  color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navlink a:hover{
+    color: black;
 }
