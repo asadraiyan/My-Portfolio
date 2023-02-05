@@ -1,38 +1,67 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Cookie&family=Courgette&family=Josefin+Sans:wght@300&family=Neonderthaw&family=Pacifico&family=Poppins:wght@300&family=Stalemate&family=Trade+Winds&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Cookie&family=Courgette&family=Itim&family=Josefin+Sans:wght@300&family=Neonderthaw&family=Pacifico&family=Poppins:wght@300&family=Stalemate&family=Trade+Winds&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 .logo{
-    font-family: 'Trade Winds', cursive;
-    font-size: 25px;
+    font-family: 'Itim', cursive;
+    font-size: 3rem;
     font-weight: 100;
+    color: grey
 }
 .navbar{
-    border-bottom: 1px solid grey;
+    border-bottom: 2px solid grey;
     display: flex;
     flex-direction: row;
-    height: 50px;
+    height: 80px;
     align-items: center;
     justify-content: space-around;
-   /* background-color: rgb(242, 206, 219); */
+   /* border: 2px solid red; */
 
 }
 .navlink{
     display: flex;
     /* border: 2px solid green; */
-    gap: 5.0rem;
+    gap: 4rem;
     align-items: center;
 }
-.navlink a{
+.navlink a, .sideNav a{
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
     font-size: 17px;
     font-weight: 600;
-    color: gray;
+    color: rgb(100, 180, 211)
 
+}
+.sideNav{
+    flex-direction: column;
+    display: flex;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    background-color: #f3f3f3;
+    align-items: center;
+    width: 200px;
+    height: calc(100vh - 80px);
+    gap: 3rem;
+    padding-top: 20px;
+    transition: 0.3s all ease;
+}
+
+.hidden {
+    left: -100%;
 }
 .navlink a:hover{
     color: black;
+}
+.menu-icons{
+    font-size: 23px;
+}
+
+@media only screen and (max-width: 700px) {
+    .logo{
+       
+        font-size: 2rem;  
+    }
 }
