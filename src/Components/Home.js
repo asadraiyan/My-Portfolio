@@ -1,9 +1,10 @@
 import React from 'react'
+import Heroimg from './Heroimg'
 
 const Home = () => {
   return (
     <div>
-      <h1>Welcome to my Profile</h1>
+      <Heroimg/>
     </div>
   )
 }

@@ -25,7 +25,7 @@ const Navbar = () => {
                 </div>
                 {isMobile ? (
                     <div className="menu-icons" onClick={handleClick}>
-                        <i>{showMediaIcons ? <TfiMenu/> :<TfiClose/> }</i>
+                        <i className='icons'>{showMediaIcons ? < TfiMenu/> :<TfiClose/> }</i>
                     </div>
                 ) : <></>}
             </nav>

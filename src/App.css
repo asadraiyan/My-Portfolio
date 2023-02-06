@@ -4,20 +4,27 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: #000;
+}
 .logo{
-    font-family: 'Itim', cursive;
+    font-family: 'Trade Winds', cursive;
     font-size: 3rem;
     font-weight: 100;
-    color: grey
+    color: #f3f3f3;
 }
 .navbar{
-    border-bottom: 2px solid grey;
+    /* border-bottom: 2px solid #f3f3f3; */
     display: flex;
     flex-direction: row;
     height: 80px;
     align-items: center;
     justify-content: space-around;
    /* border: 2px solid red; */
+   position: fixed;
+   width: 100%;
+   z-index: 10;
+   
 
 }
 .navlink{
@@ -29,39 +36,45 @@
 .navlink a, .sideNav a{
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
-    font-size: 17px;
+    font-size: 20px;
     font-weight: 600;
-    color: rgb(100, 180, 211)
+    color:#f3f3f3;
 
 }
+
 .sideNav{
     flex-direction: column;
     display: flex;
     position: absolute;
     top: 80px;
     left: 0;
-    background-color: #f3f3f3;
+    background-color: rgba(38, 36, 36, 0.9);
     align-items: center;
     width: 200px;
     height: calc(100vh - 80px);
     gap: 3rem;
     padding-top: 20px;
     transition: 0.3s all ease;
+    z-index: -3;
 }
 
 .hidden {
     left: -100%;
 }
 .navlink a:hover{
-    color: black;
+    color: rgb(74, 162, 197)
 }
 .menu-icons{
     font-size: 23px;
+    color: #f3f3f3;
 }
 
 @media only screen and (max-width: 700px) {
     .logo{
        
         font-size: 2rem;  
+    }
+    .navlink a, .sideNav a{
+        font-size: 17px;
     }
 }

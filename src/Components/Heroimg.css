@@ -1,0 +1,57 @@
+.mask{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.intro-img{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+.mask::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    opacity: 0.8;
+}
+.hero{
+    width: 100%;
+    height: 100%;
+}
+.hero .content{
+    color: white;
+    /* border: 2px solid red; */
+    width: 45rem;
+    height: 11rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: center; */
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    /* text-align: center; */
+    font-family: 'Poppins', sans-serif;
+}
+.hello{
+    font-size: 40px;
+    font-weight: 600;
+    color: greenyellow
+}
+.name{
+    font-size: 25px;
+    color: orange
+   
+}
+.bio{
+    font-size: 25px;
+    color: orange
+   
+}
