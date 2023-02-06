@@ -4,7 +4,7 @@ import Footer from './Footer'
 const Contact = () => {
   return (
     <div>
-      <Footer/>
+    
     </div>
   )
 }

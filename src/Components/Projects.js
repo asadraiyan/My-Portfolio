@@ -8,7 +8,6 @@ const Projects = () => {
     <div>
       <Heroimg2/>
       <Projectcard/>
-  <Footer/>
     </div>
   )
 }

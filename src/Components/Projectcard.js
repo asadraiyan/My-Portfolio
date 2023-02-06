@@ -1,20 +1,29 @@
 import React from 'react'
 import './Projectcard.css';
+import { Projectdata } from "./Projectdata";
 
 const Projectcard = () => {
     return (
-        <div className="card">
-            <h2>Project Name</h2>
-            <p>12th January 2023</p>
-            <p className='content'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur id vero fugit debitis voluptas autem commodi, asperiores nostrum iste. Earum?</p>
-            <div className="btn-container">
-                <button className='btn-1'>
-                    <a href="" className='anchor' target="_blank">View Live</a>
-                </button>
-                <button className='btn-2'>
-                    <a href="" className='anchor' target="_blank">View Source</a>
-                </button>
-            </div>
+        <div className="project-card">
+            {
+                Projectdata.map((currelement) => {
+                    return (
+                        <div className="card" key={currelement.id}>
+                            <h2>{currelement.name}</h2>
+                            <p>{currelement.date}</p>
+                            <p className='content'>{currelement.description}</p>
+                            <div className="btn-container">
+                                <button className='btn-1'>
+                                    <a href={currelement.appLink} className='anchor' target="_blank">View Live</a>
+                                </button>
+                                <button className='btn-2'>
+                                    <a href={currelement.sourceLink} className='anchor' target="_blank">View Source</a>
+                                </button>
+                            </div>
+                        </div>
+                    )
+                })}
+
         </div>
 
 

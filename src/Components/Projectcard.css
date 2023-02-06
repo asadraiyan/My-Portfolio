@@ -1,13 +1,30 @@
+.project-card{
+    /* border: 2px solid white; */
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+   
+    font-family: 'Poppins', sans-serif;
+    /* background-color: rgb(19,19,19,0.8); */
+    background-color: #f3f3ff
+}
 .card{
-    border: 2px solid white;
-    color: white;
+    /* border: 2px solid white; */
+    color: black;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 800px;
-    height: 200px; 
+    height: 225px; 
     padding: 1rem;
     border-radius: 10px;
+    background-color: rgb(167, 203, 218);
+    box-shadow: 2px 2px 2px 2px rgb(91, 86, 86);
+    margin-top: 35px;
+    margin-bottom: 35px;
+
 }
 .content{
     font-size: 18px;
