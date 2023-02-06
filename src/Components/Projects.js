@@ -1,9 +1,14 @@
 import React from 'react'
+import Footer from './Footer'
+import Heroimg2 from './Heroimg2'
+import Projectcard from './Projectcard'
 
 const Projects = () => {
   return (
     <div>
-      <h1>This is projects page</h1>
+      <Heroimg2/>
+      <Projectcard/>
+  <Footer/>
     </div>
   )
 }

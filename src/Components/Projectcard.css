@@ -1,0 +1,38 @@
+.card{
+    border: 2px solid white;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 800px;
+    height: 200px; 
+    padding: 1rem;
+    border-radius: 10px;
+}
+.content{
+    font-size: 18px;
+}
+.btn-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 250px;
+}
+.btn-1{
+    font-size: 17px;
+    padding: 5px 10px 5px 10px;
+    border: none;
+    background-color: skyblue;
+    border-radius: 5px;
+    text-decoration: none;
+
+}
+.btn-2{
+    font-size: 17px;
+    padding: 5px 10px 5px 10px;
+    border: none;
+    background-color: orange;
+    border-radius: 5px;
+    text-decoration: none;
+
+}
