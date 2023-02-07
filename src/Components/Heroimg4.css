@@ -1,4 +1,4 @@
-.hero3-img{
+.hero4-img{
     width: 100%;
     background-color: rgba(0, 0 , 0, 0.5);
     height: 80vh;
@@ -6,7 +6,7 @@
     color: white;
     font-family: 'Poppins', sans-serif;
 }
-.about-content{
+.contact-content{
     height: 100%;
     width: 100%;
     font-size: 25px;
@@ -16,9 +16,9 @@
     align-items: center;
     gap: 15px;
 }
-.hero3-img::before{
+.hero4-img::before{
     content: "";
-    background: url("https://images.pexels.com/photos/669996/pexels-photo-669996.jpeg?cs=srgb&dl=pexels-bich-tran-669996.jpg&fm=jpg");
+    background: url("https://cdn.pixabay.com/photo/2019/05/10/13/28/contact-us-4193523_960_720.jpg");
     background-size: cover;
     background-position: center top;
     position: absolute;
