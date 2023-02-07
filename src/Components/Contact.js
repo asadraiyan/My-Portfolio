@@ -1,11 +1,14 @@
 import React from 'react'
 import Heroimg4 from './Heroimg4'
+import Formpage from './Formpage'
+
 
 
 const Contact = () => {
   return (
     <div>
-    <Heroimg4/>
+      <Heroimg4 />
+      <Formpage/>
     </div>
   )
 }

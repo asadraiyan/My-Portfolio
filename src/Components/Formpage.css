@@ -1,0 +1,61 @@
+.form{
+    /* border: 2px solid white; */
+    color: white;
+    font-size: 22px; 
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(19,19,19,0.8);
+}
+.form-page{
+    /* border: 2px solid white; */
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height:450px ;
+    justify-content: space-between;
+    
+   
+}
+.txt{
+    font-size: 20px;
+    height: 33px;
+    width: 500px;
+    padding: 10px;
+    background-color: rgba(41, 40, 40, 0.8);
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    box-shadow: 1px 1px 2px 2px rgb(50, 48, 48);
+    font-family: 'Poppins', sans-serif;
+}
+.msg-txt{
+    height: 150px;
+    width: 500px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgba(41, 40, 40, 0.8);
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    box-shadow: 1px 1px 2px 2px rgb(50, 48, 48);
+    font-family: 'Poppins', sans-serif;
+}
+.submit-btn{
+    width: 500px;
+    height: 35px;
+    margin-top: 20px;
+    background-color: orange;
+    font-size: 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: 1px 1px 2px 2px rgb(15, 14, 14);
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
