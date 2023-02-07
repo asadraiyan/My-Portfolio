@@ -50,7 +50,7 @@
     width: 500px;
     height: 35px;
     margin-top: 20px;
-    background-color: orange;
+    background-color: rgb(228, 153, 14);
     font-size: 20px;
     border: none;
     border-radius: 3px;
@@ -58,4 +58,7 @@
     box-shadow: 1px 1px 2px 2px rgb(15, 14, 14);
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
+}
+.submit-btn:hover{
+    background-color: orange;
 }

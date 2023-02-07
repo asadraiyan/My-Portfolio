@@ -2,9 +2,9 @@ export const Projectdata = [
 
     {
         id: 1,
-        name: "Food Gallery",
+        name: "Food Gallery App",
         date: "27th January, 2023",
-        description: "Created an app using React.Js. It is a food gallery app which allows you to select different types of menu.You can see it working here:",
+        description: "Created an app using React.Js. It is a food gallery app which allows you to select different types of food categories. You can see it working here:",
         appLink: "https://food-gallery-app.netlify.app",
         sourceLink: "https://github.com/asadraiyan/React-food--filter-gallery"
     },
@@ -12,13 +12,13 @@ export const Projectdata = [
         id: 2,
         name: "Quiz App",
         date: "31st January, 2023",
-        description: "Created an app using React.Js . It is an application which asks different types of questions based on technologies. After finishing quiz you can view your score. You can see it working here:",
+        description: "Created an app using React.Js. It is an application which asks different types of questions based on web development. After finishing quiz you can view your score. You can see it working here:",
         appLink: "https://quizzz-app-react.netlify.app",
         sourceLink: "https://github.com/asadraiyan/react-quiz-app"
     },
     {
         id: 3,
-        name: "TodoList App",
+        name: "Todo List App",
         date: "25th January, 2023",
         description: "Created an app using React.Js . It is an application that allows to manage a list of tasks to do. It performs adding, updating, deleting and toggling state of each task. You can see it working here:",
         appLink: "https://react-todo-app-asad.netlify.app",
@@ -44,7 +44,7 @@ export const Projectdata = [
         id: 6,
         name: "Calendar App",
         date: "14th January, 2023",
-        description: "Created an app using HTML CSS & Javascript.The JavaScript Calendar is a control to display the date and days of the week. It provides month, year, and decade view options to quickly navigate to the desired date. It supports minimum dates, maximum dates, and disabled dates to restrict the date selection. You can see it working here:",
+        description: "Created an app using HTML CSS & Javascript.The JavaScript Calendar is a control to display the date and days of the week. It provides month, year, and decade view options to quickly navigate to the desired date. It also shows the current date whenever you open it. You can see it working here:",
         appLink: "https://dynamic-calendar-app.netlify.app/",
         sourceLink: "https://github.com/asadraiyan/Calendar-app"
     },
@@ -77,7 +77,7 @@ export const Projectdata = [
         id: 10,
         name: "Food Delivery App",
         date: "17 December, 2022",
-        description: "Created an app using HTML and CSS.It represents the various food services like food ordering ,catering, etc. You can see it working here:",
+        description: "Created an app using HTML and CSS. It represents the various food services like food ordering ,catering, etc. You can see it working here:",
         appLink: "https://online-meal-delivery.netlify.app",
         sourceLink: "https://github.com/asadraiyan/Food-delivery-app"
     },

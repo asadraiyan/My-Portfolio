@@ -62,7 +62,7 @@ body{
     left: -100%;
 }
 .navlink a:hover{
-    color: rgb(74, 162, 197)
+    color: #d5cccc;
 }
 .menu-icons{
     font-size: 23px;

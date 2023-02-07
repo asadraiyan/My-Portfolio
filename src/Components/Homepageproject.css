@@ -1,0 +1,105 @@
+.project-card-1 {
+    /* border: 2px solid white; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(19,19,19,0.8);
+    /* background-color: #f3f3ff */
+}
+.work{
+    background-color:rgb(19,19,19,0.8);
+    font-family: 'Poppins', sans-serif;
+   
+}
+.my-work{
+    color: white;
+    text-align: center;  
+     /* margin-top: 10px;  */
+  
+}
+
+.card-1 {
+    /* border: 2px solid white; */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 400px;
+    height: 250px;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: rgba(41, 40, 40, 0.8);
+    box-shadow: 2px 2px 2px 2px rgb(50, 48, 48);
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.content-1 {
+    font-size: 18px;
+}
+
+.btn-container-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 250px;
+}
+
+.btn-3 {
+    font-size: 17px;
+    padding: 5px 10px 5px 10px;
+    border: none;
+    background-color: rgb(158, 164, 220);
+    border-radius: 5px;
+    color: white;
+    box-shadow: 1px 1px 1px 1px rgb(50, 48, 48);
+}
+
+.btn-3:hover {
+    background-color: rgb(113, 122, 194);
+}
+
+.btn-4 {
+    font-size: 17px;
+    padding: 5px 10px 5px 10px;
+    border: none;
+    background-color: rgb(247, 195, 100);
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px rgb(50, 48, 48);
+
+}
+
+.btn-4:hover {
+    background-color: rgb(244, 171, 35);
+}
+
+.anchor-1 {
+    text-decoration: none;
+    color: black;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+    background-color: rgb(19,19,19,0.8);
+}
+.view-all{
+    font-size: 17px;
+    padding: 5px 10px 5px 10px;
+    border: none;
+    background-color: rgb(242, 242, 82);
+    border-radius: 5px;
+    color: white;
+    box-shadow: 1px 1px 1px 1px rgb(50, 48, 48);
+    color: black;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.view-all:hover{
+    background-color: yellow;
+}
