@@ -1,10 +1,10 @@
 import React from 'react'
-import Footer from './Footer'
+import Heroimg3 from './Heroimg3'
 
 const About = () => {
   return (
     <div>
-  
+  <Heroimg3/>
     </div>
   )
 }

@@ -1,4 +1,4 @@
-.hero-img{
+.hero3-img{
     width: 100%;
     background-color: rgba(0, 0 , 0, 0.5);
     height: 80vh;
@@ -6,7 +6,7 @@
     color: white;
     font-family: 'Poppins', sans-serif;
 }
-.heading{
+.content{
     height: 100%;
     width: 100%;
     font-size: 25px;
@@ -16,9 +16,9 @@
     align-items: center;
     gap: 15px;
 }
-.hero-img::before{
+.hero3-img::before{
     content: "";
-    background: url("https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    background: url("https://images.pexels.com/photos/669996/pexels-photo-669996.jpeg?cs=srgb&dl=pexels-bich-tran-669996.jpg&fm=jpg");
     background-size: cover;
     background-position: center top;
     position: absolute;
@@ -26,5 +26,5 @@
     width: 100%;
     top: 0;
     left: 0;
-    opacity: 0.3;
+    opacity: 0.4;
 }
