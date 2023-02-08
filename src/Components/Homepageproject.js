@@ -51,7 +51,7 @@ const Homepageproject = () => {
             </div>
            </div>
             <div className="buttons">
-            <button className='view-all'> <Link className='anchor' to = "/Projects" > View All </Link></button>
+            <button className='view-all'> <Link className='anchor-1' to = "/Projects" > View All </Link></button>
         </div>
         </>
     )

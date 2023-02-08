@@ -56,14 +56,14 @@
     font-size: 17px;
     padding: 5px 10px 5px 10px;
     border: none;
-    background-color: rgb(247, 195, 100);
+    background-color: rgb(214, 152, 38);
     border-radius: 5px;
     box-shadow: 1px 1px 1px 1px rgb(50, 48, 48);
 
 }
 
 .btn-2:hover {
-    background-color: rgb(244, 171, 35);
+    background-color: orange;
 }
 
 .anchor {
