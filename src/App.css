@@ -24,6 +24,7 @@ body{
    position: fixed;
    width: 100%;
    z-index: 10;
+   background-color: rgb(19,19,19,0.8);
    
 
 }

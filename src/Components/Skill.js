@@ -4,7 +4,7 @@ import html from '../assets/html.png'
 import css from '../assets/css.png'
 import javascript from '../assets/javascript.png'
 import react from '../assets/react.png'
-import github from '../assets/github.png'
+import github1 from '../assets/github1.png'
 
 const Skill = () => {
   return (
@@ -26,7 +26,7 @@ const Skill = () => {
                             <img className='react-img' src={react} alt="react" />
                         </div>
                         <div className="github">
-                            <img className='github-img' src={github} alt="github" />
+                            <img className='github-img' src={github1} alt="github" />
                         </div>
                     </div>
 

@@ -10,7 +10,7 @@
 .skills{
     /* text-align: center; */
     color: white;
-    font-size: 30px;
+    font-size: 35px;
 }
 .html-img{
     width: 60px;
@@ -31,6 +31,8 @@
 .github-img{
     width: 55px;
     height: 60px;
+    background-color: white;
+    border-radius: 50px;
 }
 
 .right{
