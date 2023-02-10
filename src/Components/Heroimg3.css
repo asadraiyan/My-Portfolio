@@ -8,13 +8,14 @@
 }
 .about-content{
     height: 100%;
-    width: 100%;
+    width: 70%;
     font-size: 25px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     gap: 15px;
+    padding: 1rem;
 }
 .hero3-img::before{
     content: "";
