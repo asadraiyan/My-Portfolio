@@ -1,16 +1,24 @@
 .project-card-1 {
-    /* border: 2px solid white; */
+    border: 2px solid white;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
     position: relative;
     font-family: 'Poppins', sans-serif;
     background-color: rgb(19,19,19,0.8);
-    /* background-color: #f3f3ff */
+
+}
+.project-container{
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid white; */
+    width: 95%;
+    justify-content: space-between;
+    gap: 2.5rem;
 }
 .work{
-    background-color:rgb(19,19,19,0.8);
+
     font-family: 'Poppins', sans-serif;
    
 }
@@ -35,6 +43,7 @@
     box-shadow: 2px 2px 2px 2px rgb(50, 48, 48);
     margin-top: 20px;
     margin-bottom: 20px;
+  
 
 }
 
@@ -83,12 +92,13 @@
 }
 .buttons{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-   
-    background-color: rgb(19,19,19,0.8);
 }
 .view-all{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     font-size: 17px;
     padding: 5px 10px 5px 10px;
     border: none;
@@ -102,4 +112,16 @@
 }
 .view-all:hover{
     background-color: yellow;
+}
+@media only screen and (max-width: 1000px) {
+    .project-container{
+        flex-direction: column;
+        align-items: center;
+        gap: 0rem;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .project-card-1 {
+        width: 112%;
+    }
 }

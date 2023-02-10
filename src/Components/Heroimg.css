@@ -24,20 +24,20 @@
     width: 100%;
     height: 100%;
 }
-.hero .content{
+ .content{
     color: white;
-    /* border: 2px solid red; */
-    width: 45rem;
-    height: 11rem;
+    border: 2px solid red;
+    width: 675px;
+    height: 150px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* align-items: center; */
+    align-items: center;
     position: absolute;
     transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
-    /* text-align: center; */
+    text-align: center;
     font-family: 'Poppins', sans-serif;
 }
 .hello{
@@ -54,4 +54,13 @@
     font-size: 25px;
     color: orange
    
+}
+@media only screen and (max-width: 1000px) {
+    .mask{
+        width: 112%;
+        
+    }
+    
+    
+
 }

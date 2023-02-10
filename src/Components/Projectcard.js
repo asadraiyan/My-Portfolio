@@ -11,7 +11,7 @@ const Projectcard = () => {
                         <div className="card" key={currelement.id}>
                             <h2>{currelement.name}</h2>
                             <p>{currelement.date}</p>
-                            <p className='content'>{currelement.description}</p>
+                            <p className='contents'>{currelement.description}</p>
                             <div className="btn-container">
                                 <button className='btn-1'>
                                     <a href={currelement.appLink} className='anchor' target="_blank">View Live</a>

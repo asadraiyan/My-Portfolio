@@ -77,3 +77,8 @@
    font-size: 1.5rem;
    color: white;
 }
+@media only screen and (max-width: 1000px) {
+    .footer{
+        width: 112%;
+    }
+}

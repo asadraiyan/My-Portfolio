@@ -9,8 +9,8 @@ const Heroimg = () => {
             <img className='intro-img' src={Introimg} alt="Introimg" />
         </div>
         <div className="content">
-            <p className='hello'>Hi there!</p>
-            <p className='name'>I'm Asad Raiyan</p>
+            <h1 className='hello'>Hi there!</h1>
+            <span className='name'>I'm Asad Raiyan</span>
             <p className='bio'>A mechanical engineer turned into a web developer</p>
         </div>
         
