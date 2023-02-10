@@ -1,10 +1,10 @@
 import './App.css';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from './Components/Navbar';
-import Home from './Components/Home';
-import About from './Components/About';
-import Projects from './Components/Projects';
-import Contact from './Components/Contact';
+import Home from './Components//Home/Home';
+import About from './Components/About/About';
+import Projects from './Components/Project/Projects';
+import Contact from './Components/Contact/Contact';
 import Footer from './Components/Footer';
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
           <Route exact path="/Projects" element={<Projects />} />
           <Route exact path="/Contact" element={<Contact />} />
         </Routes>
-        <Footer/>
+        <Footer />
       </div>
     </Router>
   );

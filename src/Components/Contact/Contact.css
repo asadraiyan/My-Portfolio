@@ -1,26 +1,61 @@
-.form{
+.hero4-img {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 80vh;
+    position: relative;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact-content {
+    height: 100%;
+    width: 100%;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.hero4-img::before {
+    content: "";
+    background: url("https://cdn.pixabay.com/photo/2019/05/10/13/28/contact-us-4193523_960_720.jpg");
+    background-size: cover;
+    background-position: center top;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.4;
+}
+
+.form {
     /* border: 2px solid white; */
     color: white;
-    font-size: 22px; 
+    font-size: 22px;
     height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     font-family: 'Poppins', sans-serif;
-    background-color: rgb(19,19,19,0.8);
+    background-color: rgb(19, 19, 19, 0.8);
 }
-.form-page{
+
+.form-page {
     /* border: 2px solid white; */
     display: flex;
     flex-direction: column;
     width: 600px;
-    height:450px ;
+    height: 450px;
     justify-content: space-between;
-    
-   
+
+
 }
-.txt{
+
+.txt {
     font-size: 20px;
     height: 33px;
     width: 500px;
@@ -33,7 +68,8 @@
     box-shadow: 1px 1px 2px 2px rgb(50, 48, 48);
     font-family: 'Poppins', sans-serif;
 }
-.msg-txt{
+
+.msg-txt {
     height: 150px;
     width: 500px;
     padding: 10px;
@@ -46,7 +82,8 @@
     box-shadow: 1px 1px 2px 2px rgb(50, 48, 48);
     font-family: 'Poppins', sans-serif;
 }
-.submit-btn{
+
+.submit-btn {
     width: 500px;
     height: 35px;
     margin-top: 20px;
@@ -59,7 +96,7 @@
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
 }
-.submit-btn:hover{
+
+.submit-btn:hover {
     background-color: orange;
 }
-

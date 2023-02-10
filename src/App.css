@@ -1,81 +1,92 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Cookie&family=Courgette&family=Itim&family=Josefin+Sans:wght@300&family=Neonderthaw&family=Pacifico&family=Poppins:wght@300&family=Stalemate&family=Trade+Winds&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body{
-    background-color: #000;
-}
-.logo{
-    font-family: 'Trade Winds', cursive;
-    font-size: 3rem;
-    font-weight: 100;
-    color: #f3f3f3;
-}
-.navbar{
-    /* border-bottom: 2px solid #f3f3f3; */
-    display: flex;
-    flex-direction: row;
-    height: 80px;
-    align-items: center;
-    justify-content: space-around;
-   /* border: 2px solid red; */
-   position: fixed;
-   width: 100%;
-   z-index: 10;
-   background-color: rgb(19,19,19,0.8);
-   
 
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
-.navlink{
-    display: flex;
-    /* border: 2px solid green; */
-    gap: 4rem;
-    align-items: center;
+
+body {
+	background-color: #000;
 }
-.navlink a, .sideNav a{
-    text-decoration: none;
-    font-family: 'Poppins', sans-serif;
-    font-size: 20px;
-    font-weight: 600;
-    color:#f3f3f3;
+
+.logo {
+	font-family: 'Trade Winds', cursive;
+	font-size: 3rem;
+	font-weight: 100;
+	color: #f3f3f3;
+}
+
+.navbar {
+	/* border-bottom: 2px solid #f3f3f3; */
+	display: flex;
+	flex-direction: row;
+	height: 80px;
+	align-items: center;
+	justify-content: space-around;
+	/* border: 2px solid red; */
+	position: fixed;
+	width: 100%;
+	z-index: 10;
+	background-color: rgb(19, 19, 19, 0.8);
+
 
 }
 
-.sideNav{
-    flex-direction: column;
-    display: flex;
-    position: absolute;
-    top: 80px;
-    left: 0;
-    background-color: rgba(38, 36, 36, 0.9);
-    align-items: center;
-    width: 200px;
-    height: calc(100vh - 80px);
-    gap: 3rem;
-    padding-top: 20px;
-    transition: 0.3s all ease;
-    z-index: -3;
+.navlink {
+	display: flex;
+	/* border: 2px solid green; */
+	gap: 4rem;
+	align-items: center;
+}
+
+.navlink a,
+.sideNav a {
+	text-decoration: none;
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	color: #f3f3f3;
+
+}
+
+.sideNav {
+	flex-direction: column;
+	display: flex;
+	position: absolute;
+	top: 80px;
+	left: 0;
+	background-color: rgba(38, 36, 36, 0.9);
+	align-items: center;
+	width: 200px;
+	height: calc(100vh - 80px);
+	gap: 3rem;
+	padding-top: 20px;
+	transition: 0.3s all ease;
+	z-index: -3;
 }
 
 .hidden {
-    left: -100%;
+	left: -100%;
 }
-.navlink a:hover{
-    color: #d5cccc;
+
+.navlink a:hover {
+	color: #d5cccc;
 }
-.menu-icons{
-    font-size: 23px;
-    color: #f3f3f3;
+
+.menu-icons {
+	font-size: 23px;
+	color: #f3f3f3;
 }
 
 @media only screen and (max-width: 700px) {
-    .logo{
-       
-        font-size: 2.5rem;  
-    }
-    .navlink a, .sideNav a{
-        font-size: 18px;
-    }
+	.logo {
+
+		font-size: 2.5rem;
+	}
+
+	.navlink a,
+	.sideNav a {
+		font-size: 18px;
+	}
 }

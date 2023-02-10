@@ -1,16 +1,15 @@
 import React from 'react'
-import './Heroimg4.css';
-const Heroimg4 = () => {
+const ContactImage = () => {
   return (
     <div className='hero4-img'>
-    <div className="contact-content">
+      <div className="contact-content">
         <h1>Contact Me</h1>
         <p>Let's have a chat</p>
+      </div>
+
+
     </div>
-
-
-</div>
   )
 }
 
-export default Heroimg4
+export default ContactImage
