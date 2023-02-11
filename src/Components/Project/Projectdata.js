@@ -37,7 +37,7 @@ export const Projectdata = [
         name: "Tic Tac Toe Game",
         date: "19th January, 2021",
         description: "Created an app using HTML CSS & Javascript. Tic-tac-toe is a simple, two-player game that, if played optimally by both players, will always result in a tie. The game is also called noughts and crosses or Xs and Os. A player wins a game if three marks of the same kind is connected in a line. You can see it working here:",
-        appLink: "",
+        appLink: "https://my-tic-tac-toe-appp.netlify.app/",
         sourceLink: "https://github.com/asadraiyan/Tic-Tac-Toe-Game"
     },
     {
@@ -53,10 +53,10 @@ export const Projectdata = [
         name: "Weather App",
         date: "10th January, 2023",
         description: "Created an app using HTML CSS & Javascript. A real time weather app which shows current weather of a particular city in the world. You can see it working here:",
-        appLink: "",
+        appLink: "https://weatherappp-js.netlify.app/",
         sourceLink: "https://github.com/asadraiyan/Weather-app"
     },
-  
+
     {
         id: 8,
         name: "Calculator App",
@@ -81,5 +81,5 @@ export const Projectdata = [
         appLink: "https://online-meal-delivery.netlify.app",
         sourceLink: "https://github.com/asadraiyan/Food-delivery-app"
     },
- 
+
 ]
