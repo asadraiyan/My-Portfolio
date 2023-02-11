@@ -115,3 +115,29 @@
         width: 90%;
     }
 }
+
+@media only screen and (max-width:450px) {
+    .project-title {
+        font-size: 20px;
+    }
+
+    .card {
+        width: 80%;
+    }
+
+    .contents {
+        font-size: 16px;
+    }
+
+    .title-heading {
+        font-size: 35px;
+    }
+
+    .project-title {
+        font-size: 20px;
+    }
+
+    .anchor {
+        font-size: 15px;
+    }
+}
