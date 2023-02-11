@@ -1,12 +1,12 @@
 import React from 'react'
-import Heroimg2 from './components/Heroimg2'
+import ProjectImage from './components/ProjectImage'
 import Projectcard from './components/Projectcard'
 import "./Project.css"
 
 const Projects = () => {
   return (
     <div>
-      <Heroimg2 />
+      <ProjectImage />
       <Projectcard />
     </div>
   )

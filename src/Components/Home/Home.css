@@ -30,12 +30,11 @@
 
 .content {
     color: white;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 675px;
     height: 150px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
     position: absolute;
     transform: translate(-50%, -50%);
@@ -47,22 +46,23 @@
 
 .hello {
     font-size: 40px;
-    font-weight: 600;
     color: greenyellow
 }
 
 .name {
     font-size: 25px;
-    color: orange
+    color: orange;
+    margin-top: 3px;
 }
 
 .bio {
     font-size: 25px;
-    color: orange
+    color: orange;
+    margin-top: 3px;
 }
 
 .project-card-1 {
-    border: 2px solid white;
+    /* border: 2px solid white; */
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -100,9 +100,9 @@
     color: white;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     width: 400px;
-    height: 250px;
+    min-height: 250px;
     padding: 1rem;
     border-radius: 10px;
     background-color: rgba(41, 40, 40, 0.8);
@@ -113,6 +113,7 @@
 
 .content-1 {
     font-size: 18px;
+    margin-top: 10px;
 }
 
 .btn-container-1 {
@@ -120,6 +121,7 @@
     flex-direction: row;
     justify-content: space-between;
     width: 250px;
+    margin-top: 15px;
 }
 
 .btn-3 {
@@ -179,4 +181,67 @@
 
 .view-all:hover {
     background-color: yellow;
+}
+
+@media only screen and (max-width:950px) {
+    .project-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 0rem;
+    }
+
+}
+
+@media only screen and (max-width:700px) {
+    .content {
+        width: 370px;
+        height: 175px;
+    }
+
+}
+
+@media only screen and (max-width:450px) {
+    .hello {
+        font-size: 30px;
+    }
+
+    .name {
+        font-size: 20px;
+        margin-top: 1px;
+    }
+
+    .bio {
+        font-size: 20px;
+        margin-top: 1px;
+    }
+
+    .content {
+        align-items: baseline;
+        text-align: left;
+    }
+
+    .content {
+        width: 310px;
+        height: 150px;
+    }
+
+    .card-1 {
+        width: 330px;
+    }
+
+    .content-1 {
+        font-size: 16px;
+    }
+
+    .anchor-1 {
+        font-size: 15px;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+}
+
+.work {
+    font-size: 15px;
 }

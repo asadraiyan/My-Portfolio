@@ -79,6 +79,100 @@ body {
 	color: #f3f3f3;
 }
 
+.footer {
+	/* border: 2px solid white; */
+	width: 100%;
+	padding: 6rem, 0;
+	background-color: rgb(19, 19, 19, 0.8);
+	font-family: 'Poppins', sans-serif;
+}
+
+.footer-container {
+	/* border: 2px solid white; */
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.location {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 0.7rem;
+	color: white;
+	font-size: 20px;
+	margin-right: 2rem;
+}
+
+.location p {
+	line-height: 40px;
+}
+
+.address {
+	margin-left: 20px;
+}
+
+.phn {
+	margin-left: 20px;
+}
+
+.mail {
+	margin-left: 20px;
+}
+
+.phone {
+	color: white;
+	font-size: 20px;
+	margin-right: 2rem;
+	margin-bottom: 0.7rem;
+}
+
+.email {
+	color: white;
+	font-size: 20px;
+	margin-right: 2rem;
+}
+
+.left {
+	height: 100%;
+	max-width: 100%;
+	display: flex;
+	flex-direction: column;
+	padding: 1rem;
+	justify-content: space-between;
+
+}
+
+.right-side {
+	/* border: 2px solid white; */
+	height: 100%;
+	max-width: 100%;
+	display: flex;
+	flex-direction: column;
+	padding: 1rem;
+	justify-content: space-between;
+	align-items: center;
+	font-family: 'Poppins', sans-serif;
+	color: white;
+}
+
+.build {
+	font-size: 20px;
+}
+
+.social-container {
+	/* border: 2px solid white; */
+	width: 250px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 20px;
+}
+
+.social {
+	font-size: 1.5rem;
+	color: white;
+}
+
 @media only screen and (max-width: 700px) {
 	.logo {
 
@@ -88,5 +182,41 @@ body {
 	.navlink a,
 	.sideNav a {
 		font-size: 18px;
+	}
+
+	.footer-container {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+}
+
+@media only screen and (max-width: 450px) {
+
+	.phone {
+
+		font-size: 18px;
+
+	}
+
+	.email {
+
+		font-size: 18px;
+
+	}
+
+	.location {
+
+		font-size: 18px;
+	}
+
+	.build {
+
+		font-size: 18px;
+	}
+
+	.logo {
+
+		font-size: 2.0rem;
 	}
 }

@@ -48,7 +48,7 @@
     color: white;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     width: 800px;
     min-height: 225px;
     padding: 1rem;
@@ -62,6 +62,7 @@
 
 .contents {
     font-size: 18px;
+    margin-top: 10px;
 }
 
 .btn-container {
@@ -69,6 +70,7 @@
     flex-direction: row;
     justify-content: space-between;
     width: 250px;
+    margin-top: 15px;
 }
 
 .btn-1 {

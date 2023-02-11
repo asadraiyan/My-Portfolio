@@ -1,5 +1,4 @@
 import React from 'react'
-import './Footer.css';
 import { ImLocation2 } from "react-icons/im";
 import { FiPhoneOutgoing } from "react-icons/fi";
 import { GrMail } from "react-icons/gr";

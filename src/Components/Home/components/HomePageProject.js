@@ -1,5 +1,4 @@
 import React from 'react'
-// import './HomePageProject.css';
 import { Link } from "react-router-dom";
 
 const HomePageProject = () => {
@@ -12,8 +11,10 @@ const HomePageProject = () => {
         </div>
         <div className="project-container">
           <div className="card-1">
-            <h2>Food Gallery App</h2>
-            <p>27th January, 2023</p>
+            <h2 className='title'>Food Gallery App</h2>
+            <small className='date'>
+              <time>27th January, 2023</time>
+            </small>
             <p className='content-1'>Created an app using React.Js. It is a food gallery app which allows you to select different types of food categories.</p>
             <div className="btn-container-1">
               <button className='btn-3'>
@@ -25,8 +26,10 @@ const HomePageProject = () => {
             </div>
           </div>
           <div className="card-1">
-            <h2>Quiz App</h2>
-            <p>31st January, 2023</p>
+            <h2 className='title'>Quiz App</h2>
+            <small className='date'>
+              <time>31st January, 2023</time>
+            </small>
             <p className='content-1'>Created an app using React.Js. It is an application which asks different types of questions based on web development.</p>
             <div className="btn-container-1">
               <button className='btn-3'>
@@ -38,8 +41,10 @@ const HomePageProject = () => {
             </div>
           </div>
           <div className="card-1">
-            <h2>Calendar App</h2>
-            <p>14th January, 2023</p>
+            <h2 className='title'>Calendar App</h2>
+            <small className='date'>
+              <time>14th January, 2023</time>
+            </small>
             <p className='content-1'>Created an app using HTML CSS & Javascript. A JavaScript Calendar which display the date and days of the week.</p>
             <div className="btn-container-1">
               <button className='btn-3'>

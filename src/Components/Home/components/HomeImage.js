@@ -1,6 +1,4 @@
 import React from 'react'
-// import './HomeImage.css';
-// import Introimg from '../assets/bgimg.jpg'
 import Introimg from '../../../assets/bgimg.jpg'
 
 const HomeImage = () => {
