@@ -35,12 +35,12 @@
     height: 150px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
     position: absolute;
     transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
-    text-align: center;
+    /* text-align: center; */
     font-family: 'Poppins', sans-serif;
 }
 
@@ -52,13 +52,13 @@
 .name {
     font-size: 25px;
     color: orange;
-    margin-top: 3px;
+    margin-top: 5px;
 }
 
 .bio {
     font-size: 25px;
     color: orange;
-    margin-top: 3px;
+    margin-top: 5px;
 }
 
 .project-card-1 {
