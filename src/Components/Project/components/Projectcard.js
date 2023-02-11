@@ -9,7 +9,7 @@ const Projectcard = () => {
         Projectdata.map((currelement) => {
           return (
             <div className="card" key={currelement.id}>
-              <h2>{currelement.name}</h2>
+              <h2 className='project-title'>{currelement.name}</h2>
               <small className='date'>
                 <time>{currelement.date}</time>
               </small>

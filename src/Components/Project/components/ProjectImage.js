@@ -5,8 +5,8 @@ const Heroimg2 = () => {
     return (
         <div className='hero-img'>
             <div className="heading">
-                <h1>My Projects</h1>
-                <p>Some of my most recent work</p>
+                <h1 className='title-heading'>My Projects</h1>
+                <p className='project-title'>Some of my most recent work</p>
             </div>
 
 
