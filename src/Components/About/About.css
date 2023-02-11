@@ -8,9 +8,8 @@
 }
 
 .about-content {
-    height: 100%;
-    width: 70%;
-    font-size: 25px;
+    min-height: 100%;
+    width: 75%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -18,6 +17,15 @@
     gap: 15px;
     padding: 1rem;
 }
+
+.intro {
+    font-size: 35px;
+}
+
+.intro-desc {
+    font-size: 22px;
+}
+
 
 .hero3-img::before {
     content: "";
@@ -35,11 +43,11 @@
 .web-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     /* border: 2px solid white; */
     height: 200px;
-    width: 1000px;
+    width: 100%;
 }
 
 .skills {
@@ -86,5 +94,71 @@
     align-items: center;
     background-color: rgb(19, 19, 19, 0.8);
     font-family: 'Poppins', sans-serif;
+
+}
+
+@media only screen and (max-width:700px) {
+
+    .web-container {
+        flex-wrap: wrap;
+    }
+
+    .about-content {
+        min-height: 115%;
+        width: 90%;
+    }
+
+    .intro {
+        font-size: 30px;
+    }
+
+    .intro-desc {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width:450px) {
+
+    .intro {
+        font-size: 25px;
+    }
+
+    .intro-desc {
+        font-size: 16px;
+    }
+
+    .skills {
+        font-size: 25px;
+    }
+
+    .web-container {
+        justify-content: space-between;
+    }
+
+    .html-img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .css-img {
+        width: 36px;
+        height: 50px;
+    }
+
+    .javascript-img {
+        width: 45px;
+        height: 45px;
+    }
+
+    .react-img {
+        width: 65px;
+        height: 50px;
+    }
+
+    .github-img {
+        width: 50px;
+        height: 50px;
+
+    }
 
 }
