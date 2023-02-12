@@ -39,6 +39,7 @@
     position: absolute;
     transform: translate(-50%, -50%);
     top: 50%;
+    /* bottom: 50%; */
     left: 50%;
     /* text-align: center; */
     font-family: 'Poppins', sans-serif;
@@ -190,17 +191,37 @@
         gap: 0rem;
     }
 
+
+
 }
 
 @media only screen and (max-width:700px) {
     .content {
         width: 370px;
-        height: 175px;
+        height: 185px;
+
+    }
+
+    .mask {
+        height: 70vh;
     }
 
 }
 
 @media only screen and (max-width:450px) {
+    .content {
+        top: 32%;
+        width: 310px;
+        height: 150px;
+        align-items: baseline;
+        text-align: left;
+    }
+
+    .mask {
+        height: 50vh;
+    }
+
+
     .hello {
         font-size: 30px;
     }
@@ -215,18 +236,8 @@
         margin-top: 1px;
     }
 
-    .content {
-        align-items: baseline;
-        text-align: left;
-    }
-
-    .content {
-        width: 310px;
-        height: 150px;
-    }
-
     .card-1 {
-        width: 330px;
+        width: 280px;
     }
 
     .content-1 {
