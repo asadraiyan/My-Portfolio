@@ -114,6 +114,10 @@
     .card {
         width: 90%;
     }
+
+    .hero-img {
+        height: 70vh;
+    }
 }
 
 @media only screen and (max-width:450px) {
@@ -121,16 +125,25 @@
         font-size: 20px;
     }
 
+    .hero-img {
+        height: 50vh;
+    }
+
+    .heading {
+        height: 115%;
+    }
+
     .card {
         width: 80%;
     }
 
     .contents {
-        font-size: 16px;
+        font-size: 14px;
+
     }
 
     .title-heading {
-        font-size: 35px;
+        font-size: 30px;
     }
 
     .project-title {
