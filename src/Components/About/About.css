@@ -97,34 +97,55 @@
 
 }
 
-@media only screen and (max-width:700px) {
-
-    .web-container {
-        flex-wrap: wrap;
-    }
-
-    .about-content {
-        min-height: 115%;
-        width: 90%;
-    }
-
-    .intro {
-        font-size: 30px;
-    }
-
-    .intro-desc {
-        font-size: 18px;
-    }
-}
-
-@media only screen and (max-width:450px) {
-
+@media only screen and (max-width:900px) {
     .intro {
         font-size: 25px;
     }
 
     .intro-desc {
         font-size: 16px;
+    }
+}
+
+@media only screen and (max-width:700px) {
+    .hero3-img {
+        height: 70vh;
+    }
+
+    .web-container {
+        flex-wrap: wrap;
+    }
+
+    .about-content {
+        min-height: 120%;
+        width: 90%;
+    }
+
+    .intro {
+        font-size: 23px;
+    }
+
+    .intro-desc {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width:450px) {
+    .hero3-img {
+        height: 55vh;
+    }
+
+    .about-content {
+        min-height: 115%;
+        width: 100%;
+    }
+
+    .intro {
+        font-size: 22px;
+    }
+
+    .intro-desc {
+        font-size: 14px;
     }
 
     .skills {
