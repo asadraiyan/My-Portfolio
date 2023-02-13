@@ -29,7 +29,7 @@ export const Projectdata = [
         name: "TextUtils App",
         date: "22nd January, 2023",
         description: "Created an app using React.Js. It has multiple functionality for text editing according to user. It has both light and dark mode, it also shows the summarry of your text as a preview and also shows the number of words and characters. You can see it working here:",
-        appLink: "",
+        appLink: "https://react-textutils-appp.netlify.app/",
         sourceLink: "https://github.com/asadraiyan/react-textutils"
     },
     {

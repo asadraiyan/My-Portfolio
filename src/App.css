@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Cookie&family=Courgette&family=Itim&family=Josefin+Sans:wght@300&family=Neonderthaw&family=Pacifico&family=Poppins:wght@300&family=Stalemate&family=Trade+Winds&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Josefin+Sans:wght@300&family=Neonderthaw&family=Pacifico&family=Poppins:wght@300&family=Stalemate&family=Trade+Winds&display=swap');
 
 * {
     margin: 0;
@@ -85,6 +85,10 @@ body {
     padding: 6rem, 0;
     background-color: rgb(19, 19, 19, 0.8);
     font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: row;
+
+
 }
 
 .footer-container {
@@ -92,6 +96,9 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin-top: 20px;
+    width: 100%;
+
 }
 
 .location {
@@ -173,6 +180,28 @@ body {
     color: white;
 }
 
+.scroll {
+    /* border: 2px solid white; */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 70px;
+    height: 68px;
+    margin-top: 20px;
+    /* align-items: center; */
+}
+
+.scroll-button {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.top {
+    font-size: 20px;
+    cursor: pointer;
+}
+
 @media only screen and (max-width: 700px) {
     .logo {
 
@@ -218,5 +247,21 @@ body {
     .logo {
 
         font-size: 2.0rem;
+    }
+
+    .scroll-button {
+        font-size: 25px;
+        cursor: pointer;
+    }
+
+    .top {
+        font-size: 18px;
+        cursor: pointer;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .scroll {
+        align-items: center;
     }
 }

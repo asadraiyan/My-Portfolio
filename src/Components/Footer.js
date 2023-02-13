@@ -7,9 +7,16 @@ import { FaTwitter } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
+import { IoIosArrowUp } from "react-icons/io";
 
 
 const Footer = () => {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  };
   return (
     <div className='footer'>
       <div className="footer-container">
@@ -31,6 +38,10 @@ const Footer = () => {
               <span className='mail'> asadraiyan001@gmail.com</span>
             </h4>
           </div>
+        </div>
+        <div className="scroll">
+          <IoIosArrowUp className="scroll-button" onClick={scrollToTop} />
+          <span className='top' onClick={scrollToTop}>Top</span>
         </div>
         <div className="right-side">
           <div className="copyright">
