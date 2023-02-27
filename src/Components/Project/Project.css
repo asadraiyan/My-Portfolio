@@ -40,7 +40,6 @@
     position: relative;
     font-family: 'Poppins', sans-serif;
     background-color: rgb(19, 19, 19, 0.8);
-    /* background-color: #f3f3ff */
 }
 
 .card {
@@ -48,7 +47,6 @@
     color: white;
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
     width: 800px;
     min-height: 225px;
     padding: 1rem;
