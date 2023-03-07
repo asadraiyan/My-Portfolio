@@ -50,13 +50,13 @@
 .name {
     font-size: 25px;
     color: orange;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 .bio {
     font-size: 25px;
     color: orange;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 .project-card-1 {
@@ -224,12 +224,12 @@
 
     .name {
         font-size: 20px;
-        margin-top: 1px;
+        margin-top: 3px;
     }
 
     .bio {
         font-size: 20px;
-        margin-top: 1px;
+        margin-top: 3px;
     }
 
     .card-1 {
