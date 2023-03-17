@@ -10,7 +10,8 @@ const HomeImage = () => {
       <div className="content">
         <h1 className='hello'>Hi there!</h1>
         <span className='name'>I'm Asad Raiyan</span>
-        <p className='bio'>A mechanical engineer turned into a web developer</p>
+        <p className='bio'>A mechanical engineer turned into a Frontend developer</p>
+        <p className='bio'>A passionate Frontend React developer</p>
       </div>
     </div>
   )
