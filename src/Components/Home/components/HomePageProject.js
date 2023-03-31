@@ -11,6 +11,21 @@ const HomePageProject = () => {
         </div>
         <div className="project-container">
           <div className="card-1">
+            <h2 className='title'>Unique Collection</h2>
+            <small className='date'>
+              <time>30th March, 2023</time>
+            </small>
+            <p className='content-1'>Created an app using React.Js It is an E-Commerce app that allows customers to purchase goods and services online.</p>
+            <div className="btn-container-1">
+              <button className='btn-3'>
+                <a href="https://unique-collection.netlify.app/" className='anchor-1' target="_blank">View Live</a>
+              </button>
+              <button className='btn-4'>
+                <a href="https://github.com/asadraiyan/E-Mart" className='anchor-1' target="_blank">View Source</a>
+              </button>
+            </div>
+          </div>
+          <div className="card-1">
             <h2 className='title'>Weather App</h2>
             <small className='date'>
               <time>6th March, 2023</time>
@@ -40,22 +55,6 @@ const HomePageProject = () => {
               </button>
             </div>
           </div>
-          <div className="card-1">
-            <h2 className='title'>Quiz App</h2>
-            <small className='date'>
-              <time>5th February, 2023</time>
-            </small>
-            <p className='content-1'>Created an app using React.Js. It is an application which asks different types of questions based on web development.</p>
-            <div className="btn-container-1">
-              <button className='btn-3'>
-                <a href="https://quizzz-app-react.netlify.app" className='anchor-1' target="_blank">View Live</a>
-              </button>
-              <button className='btn-4'>
-                <a href="https://github.com/asadraiyan/react-quiz-app" className='anchor-1' target="_blank">View Source</a>
-              </button>
-            </div>
-          </div>
-
         </div>
         <div className="buttons">
           <button className='view-all'> <Link className='anchor-1' to="/Projects" > View All </Link></button>
