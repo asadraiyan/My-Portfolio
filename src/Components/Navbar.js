@@ -5,11 +5,11 @@ import { TfiClose } from "react-icons/tfi";
 import { useMediaQuery } from "react-responsive";
 const Navbar = () => {
     const isMobile = useMediaQuery({ query: "(max-width: 1000px)" });
-   const[showMediaIcons, setshowMediaIcons]= useState(true)
-   
-   const handleClick = () =>{
-   setshowMediaIcons(!showMediaIcons)
-   }
+    const [showMediaIcons, setshowMediaIcons] = useState(true)
+
+    const handleClick = () => {
+        setshowMediaIcons(!showMediaIcons)
+    }
 
     return (
         <>
@@ -25,7 +25,7 @@ const Navbar = () => {
                 </div>
                 {isMobile ? (
                     <div className="menu-icons" onClick={handleClick}>
-                        <i className='icons'>{showMediaIcons ? < TfiMenu/> :<TfiClose/> }</i>
+                        <i className='icons'>{showMediaIcons ? < TfiMenu /> : <TfiClose />}</i>
                     </div>
                 ) : <></>}
             </nav>

@@ -59,6 +59,51 @@
     margin-top: 10px;
 }
 
+.info {
+    /* border: 2px solid white; */
+    display: flex;
+    flex-direction: row;
+    font-family: 'Poppins', sans-serif;
+    gap: 20px;
+    margin-top: 25px;
+}
+
+.resume,
+.talk {
+    font-size: 18px;
+    padding: 3px 10px 3px 10px;
+    border: 2px solid rgb(172, 226, 92);
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    background: none;
+
+}
+
+.resume:hover {
+    background-color: greenyellow;
+    color: #081b29;
+}
+
+.talk:hover {
+    background-color: greenyellow;
+    color: #081b29;
+}
+
+.talk-link {
+    text-decoration: none;
+    color: white;
+
+}
+
+.talk-link:hover {
+    color: #081b29;
+}
+
+
+
 .project-card-1 {
     /* border: 2px solid white; */
     display: flex;
@@ -199,10 +244,11 @@
     }
 
     .mask {
-        height: 65vh;
+        height: 71vh;
     }
 
 }
+
 
 @media only screen and (max-width:450px) {
     .content {
@@ -214,7 +260,7 @@
     }
 
     .mask {
-        height: 50vh;
+        height: 52vh;
     }
 
 
@@ -223,12 +269,12 @@
     }
 
     .name {
-        font-size: 20px;
+        font-size: 18px;
         margin-top: 3px;
     }
 
     .bio {
-        font-size: 20px;
+        font-size: 18px;
         margin-top: 3px;
     }
 
@@ -250,5 +296,12 @@
 
     .my-work {
         font-size: 25px;
+    }
+
+    .resume,
+    .talk {
+        font-size: 16px;
+        padding: 2px 8px 2px 8px;
+        border: 1px solid rgb(172, 226, 92);
     }
 }
