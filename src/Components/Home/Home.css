@@ -79,6 +79,7 @@
     letter-spacing: 0.5px;
     font-weight: bold;
     background: none;
+    cursor: pointer;
 
 }
 
@@ -100,6 +101,7 @@
 
 .talk-link:hover {
     color: #081b29;
+
 }
 
 

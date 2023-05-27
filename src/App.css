@@ -71,7 +71,12 @@ body {
 }
 
 .navlink a:hover {
-    color: #d5cccc;
+    color: rgb(175, 170, 160)
+}
+
+.navlink .active a,
+.sideNav .active a {
+    color: rgb(175, 170, 160)
 }
 
 .menu-icons {
