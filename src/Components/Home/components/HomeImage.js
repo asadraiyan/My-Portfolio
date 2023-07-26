@@ -17,9 +17,10 @@ const HomeImage = () => {
         <p className="bio">A passionate Frontend developer</p>
         <div className="info">
           <a
-            href="https://drive.google.com/file/d/1Crng3Lo8flktDNmRtreGBQmn9sQyZmSu/view?usp=drivesdk"
+            href="https://drive.google.com/file/d/1DC8cnibbHMmTMx8jE3kgOzuHMWRWTIVE/view?usp=drivesdk"
             className="resume"
             target="_blank"
+            rel="noreferrer noopener"
           >
             {" "}
             Resume

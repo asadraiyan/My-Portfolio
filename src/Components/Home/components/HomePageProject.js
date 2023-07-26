@@ -24,6 +24,7 @@ const HomePageProject = () => {
                   href="https://unique-collection.netlify.app/"
                   className="anchor-1"
                   target="_blank"
+                  rel="noreferrer noopener"
                 >
                   View Live
                 </a>
@@ -33,6 +34,7 @@ const HomePageProject = () => {
                   href="https://github.com/asadraiyan/E-Mart"
                   className="anchor-1"
                   target="_blank"
+                  rel="noreferrer noopener"
                 >
                   View Source
                 </a>
@@ -54,6 +56,7 @@ const HomePageProject = () => {
                   href="https://live-chat-app-prod.netlify.app/"
                   className="anchor-1"
                   target="_blank"
+                  rel="noreferrer noopener"
                 >
                   View Live
                 </a>
@@ -63,6 +66,7 @@ const HomePageProject = () => {
                   href="https://github.com/asadraiyan/livechat-app"
                   className="anchor-1"
                   target="_blank"
+                  rel="noreferrer noopener"
                 >
                   View Source
                 </a>
@@ -84,6 +88,7 @@ const HomePageProject = () => {
                   href="https://asad-mern-register.netlify.app/"
                   className="anchor-1"
                   target="_blank"
+                  rel="noreferrer noopener"
                 >
                   View Live
                 </a>
@@ -93,6 +98,7 @@ const HomePageProject = () => {
                   href="https://github.com/asadraiyan/mern-stack"
                   className="anchor-1"
                   target="_blank"
+                  rel="noreferrer noopener"
                 >
                   View Source
                 </a>
