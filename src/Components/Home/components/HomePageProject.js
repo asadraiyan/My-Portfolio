@@ -70,18 +70,18 @@ const HomePageProject = () => {
             </div>
           </div>
           <div className="card-1">
-            <h2 className="title">Food Gallery App</h2>
+            <h2 className="title">MERN Register</h2>
             <small className="date">
-              <time>10th February, 2023</time>
+              <time>5th June, 2023</time>
             </small>
             <p className="content-1">
-              Created an app using React.Js. It is a food gallery app which
-              allows you to select different types of food categories.
+              Created an app using MERN stack. This app allows you to register
+              yourself and create a profile of your own.
             </p>
             <div className="btn-container-1">
               <button className="btn-3">
                 <a
-                  href="https://food-gallery-app.netlify.app"
+                  href="https://asad-mern-register.netlify.app/"
                   className="anchor-1"
                   target="_blank"
                 >
@@ -90,7 +90,7 @@ const HomePageProject = () => {
               </button>
               <button className="btn-4">
                 <a
-                  href="https://github.com/asadraiyan/React-food--filter-gallery"
+                  href="https://github.com/asadraiyan/mern-stack"
                   className="anchor-1"
                   target="_blank"
                 >
