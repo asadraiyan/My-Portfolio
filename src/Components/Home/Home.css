@@ -1,309 +1,293 @@
 .mask {
-    width: 100%;
-    height: 80vh;
-    position: relative;
+  width: 100%;
+  height: 80vh;
+  position: relative;
 }
 
 .intro-img {
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-    object-fit: cover;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
 }
 
 .mask::after {
-    content: "";
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: #000;
-    opacity: 0.7;
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  opacity: 0.7;
 }
 
 .hero {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .content {
-    color: white;
-    /* border: 2px solid red; */
-    width: 675px;
-    height: 200px;
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    top: 50%;
-    left: 50%;
-    font-family: 'Poppins', sans-serif;
+  color: white;
+  /* border: 2px solid red; */
+  width: 675px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  font-family: "Poppins", sans-serif;
 }
 
 .hello {
-    font-size: 40px;
-    color: greenyellow
+  font-size: 40px;
+  color: greenyellow;
 }
 
 .name {
-    font-size: 23px;
-    color: orange;
-    margin-top: 10px;
+  font-size: 23px;
+  color: orange;
+  margin-top: 10px;
 }
 
 .bio {
-    font-size: 23px;
-    color: orange;
-    margin-top: 10px;
+  font-size: 23px;
+  color: orange;
+  margin-top: 10px;
 }
 
 .info {
-    /* border: 2px solid white; */
-    display: flex;
-    flex-direction: row;
-    font-family: 'Poppins', sans-serif;
-    gap: 20px;
-    margin-top: 25px;
+  /* border: 2px solid white; */
+  display: flex;
+  flex-direction: row;
+  font-family: "Poppins", sans-serif;
+  gap: 20px;
+  margin-top: 25px;
 }
 
 .resume,
 .talk {
-    font-size: 18px;
-    padding: 3px 10px 3px 10px;
-    border: 2px solid rgb(172, 226, 92);
-    color: white;
-    border-radius: 6px;
-    text-decoration: none;
-    letter-spacing: 0.5px;
-    font-weight: bold;
-    background: none;
-    cursor: pointer;
-
+  font-size: 18px;
+  padding: 3px 10px 3px 10px;
+  border: 2px solid rgb(172, 226, 92);
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+  background: none;
+  cursor: pointer;
 }
 
 .resume:hover {
-    background-color: greenyellow;
-    color: #081b29;
+  background-color: greenyellow;
+  color: #081b29;
 }
 
 .talk:hover {
-    background-color: greenyellow;
-    color: #081b29;
+  background-color: greenyellow;
+  color: #081b29;
 }
 
 .talk-link {
-    text-decoration: none;
-    color: white;
-
+  text-decoration: none;
+  color: white;
 }
 
 .talk-link:hover {
-    color: #081b29;
-
+  color: #081b29;
 }
 
-
-
 .project-card-1 {
-    /* border: 2px solid white; */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    position: relative;
-    font-family: 'Poppins', sans-serif;
-    background-color: rgb(19, 19, 19, 0.8);
-
+  /* border: 2px solid white; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(19, 19, 19, 0.8);
 }
 
 .project-container {
-    display: flex;
-    flex-direction: row;
-    /* border: 2px solid white; */
-    width: 95%;
-    justify-content: space-between;
-    gap: 2.5rem;
+  display: flex;
+  flex-direction: row;
+  /* border: 2px solid white; */
+  width: 95%;
+  justify-content: space-between;
+  gap: 2.5rem;
 }
 
 .work {
-
-    font-family: 'Poppins', sans-serif;
-
+  font-family: "Poppins", sans-serif;
 }
 
 .my-work {
-    color: white;
-    text-align: center;
-    margin-top: 20px;
-
+  color: white;
+  text-align: center;
+  margin-top: 20px;
 }
 
 .card-1 {
-    /* border: 2px solid white; */
-    color: white;
-    display: flex;
-    flex-direction: column;
-    width: 400px;
-    min-height: 250px;
-    padding: 1rem;
-    border-radius: 10px;
-    background-color: rgba(41, 40, 40, 0.8);
-    box-shadow: 2px 2px 2px 2px rgb(50, 48, 48);
-    margin-top: 20px;
-    margin-bottom: 20px;
+  /* border: 2px solid white; */
+  color: white;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  min-height: 250px;
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: rgba(41, 40, 40, 0.8);
+  box-shadow: 2px 2px 2px 2px rgb(50, 48, 48);
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .content-1 {
-    font-size: 18px;
-    margin-top: 10px;
+  font-size: 18px;
+  margin-top: 10px;
 }
 
 .btn-container-1 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 250px;
-    margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 250px;
+  margin-top: 15px;
 }
 
 .btn-3 {
-    font-size: 17px;
-    padding: 5px 10px 5px 10px;
-    border: none;
-    background-color: rgb(158, 164, 220);
-    border-radius: 5px;
-    color: white;
-    box-shadow: 1px 1px 1px 1px rgb(50, 48, 48);
+  font-size: 17px;
+  padding: 10px 12px 10px 12px;
+  border: none;
+  background-color: rgb(158, 164, 220);
+  border-radius: 5px;
+  color: white;
+  box-shadow: 1px 1px 1px 1px rgb(110, 109, 109);
+  cursor: pointer;
 }
 
 .btn-3:hover {
-    background-color: rgb(113, 122, 194);
+  background-color: rgb(113, 122, 194);
 }
 
 .btn-4 {
-    font-size: 17px;
-    padding: 5px 10px 5px 10px;
-    border: none;
-    background-color: rgb(214, 152, 38);
-    border-radius: 5px;
-    box-shadow: 1px 1px 1px 1px rgb(50, 48, 48);
-
+  font-size: 17px;
+  padding: 10px 12px 10px 12px;
+  border: none;
+  background-color: rgb(214, 152, 38);
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px 1px rgb(110, 109, 109);
+  cursor: pointer;
 }
 
 .btn-4:hover {
-    background-color: orange;
+  background-color: orange;
 }
 
 .anchor-1 {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 .buttons {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .view-all {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    font-size: 17px;
-    padding: 5px 10px 5px 10px;
-    border: none;
-    background-color: #69a1f5;
-    border-radius: 5px;
-    color: black;
-    box-shadow: 1px 1px 1px 1px rgb(50, 48, 48);
-    color: black;
-    cursor: pointer;
-    margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 17px;
+  padding: 10px 15px 10px 15px;
+  border: none;
+  background-color: #69a1f5;
+  border-radius: 5px;
+  color: black;
+  box-shadow: 1px 1px 1px 1px rgb(110, 109, 109);
+  cursor: pointer;
+  margin-top: 20px;
 }
 
 .view-all:hover {
-    background-color: #0d6efd;
+  background-color: #5193f5;
 }
 
-@media only screen and (max-width:950px) {
-    .project-container {
-        flex-direction: column;
-        align-items: center;
-        gap: 0rem;
-    }
-
-
-
+@media only screen and (max-width: 950px) {
+  .project-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 0rem;
+  }
 }
 
-@media only screen and (max-width:700px) {
-    .content {
-        width: 370px;
-        height: 400px;
+@media only screen and (max-width: 700px) {
+  .content {
+    width: 370px;
+    height: 400px;
+  }
 
-    }
-
-    .mask {
-        height: 71vh;
-    }
-
+  .mask {
+    height: 71vh;
+  }
 }
 
+@media only screen and (max-width: 450px) {
+  .content {
+    top: 32%;
+    width: 310px;
+    height: 200px;
+    align-items: baseline;
+    text-align: left;
+  }
 
-@media only screen and (max-width:450px) {
-    .content {
-        top: 32%;
-        width: 310px;
-        height: 200px;
-        align-items: baseline;
-        text-align: left;
-    }
+  .mask {
+    height: 52vh;
+  }
 
-    .mask {
-        height: 52vh;
-    }
+  .hello {
+    font-size: 30px;
+  }
 
+  .name {
+    font-size: 18px;
+    margin-top: 3px;
+  }
 
-    .hello {
-        font-size: 30px;
-    }
+  .bio {
+    font-size: 18px;
+    margin-top: 3px;
+  }
 
-    .name {
-        font-size: 18px;
-        margin-top: 3px;
-    }
+  .card-1 {
+    width: 280px;
+  }
 
-    .bio {
-        font-size: 18px;
-        margin-top: 3px;
-    }
+  .content-1 {
+    font-size: 16px;
+  }
 
-    .card-1 {
-        width: 280px;
-    }
+  .anchor-1 {
+    font-size: 15px;
+  }
 
-    .content-1 {
-        font-size: 16px;
-    }
+  .title {
+    font-size: 20px;
+  }
 
-    .anchor-1 {
-        font-size: 15px;
-    }
+  .my-work {
+    font-size: 25px;
+  }
 
-    .title {
-        font-size: 20px;
-    }
-
-    .my-work {
-        font-size: 25px;
-    }
-
-    .resume,
-    .talk {
-        font-size: 16px;
-        padding: 2px 8px 2px 8px;
-        border: 1px solid rgb(172, 226, 92);
-    }
+  .resume,
+  .talk {
+    font-size: 16px;
+    padding: 2px 8px 2px 8px;
+    border: 1px solid rgb(172, 226, 92);
+  }
 }
