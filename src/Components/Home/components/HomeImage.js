@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 const HomeImage = () => {
   const navigate = useNavigate();
   const handleTalk = () => {
-    navigate("/Contact");
+    navigate("contact");
   };
   return (
     <div className="hero">
