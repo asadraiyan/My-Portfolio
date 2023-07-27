@@ -64,8 +64,8 @@
   display: flex;
   flex-direction: row;
   font-family: "Poppins", sans-serif;
-  gap: 30px;
-  margin-top: 30px;
+  gap: 40px;
+  margin-top: 25px;
   justify-content: center;
   align-items: center;
 }
@@ -84,7 +84,7 @@
 }
 .talk {
   font-size: 18px;
-  padding: 6px 10px 6px 10px;
+  padding: 5.5px 10px 5.5px 10px;
   border: 3px solid rgb(172, 226, 92);
   color: white;
   border-radius: 6px;
@@ -245,33 +245,30 @@
     font-size: 3rem;
     letter-spacing: 4px;
   }
+  .bio {
+    font-size: 1.3rem;
+  }
 }
 
 @media only screen and (max-width: 450px) {
   .content {
-    top: 32%;
-    width: 310px;
-    height: 200px;
+    width: 95%;
+    top: 34%;
     align-items: baseline;
     text-align: left;
   }
 
   .mask {
-    height: 52vh;
+    height: 55vh;
   }
 
   .hello {
     font-size: 30px;
   }
 
-  .name {
-    font-size: 18px;
-    margin-top: 3px;
-  }
-
   .bio {
-    font-size: 18px;
-    margin-top: 3px;
+    font-size: 0.9rem;
+    margin-top: 10px;
   }
 
   .card-1 {
@@ -291,13 +288,14 @@
   }
 
   .my-work {
-    font-size: 25px;
+    font-size: 28px;
   }
-
-  .resume,
+  .resume {
+    font-size: 15px;
+    padding: 3px 8px 3px 8px;
+  }
   .talk {
-    font-size: 16px;
-    padding: 2px 8px 2px 8px;
-    border: 1px solid rgb(172, 226, 92);
+    font-size: 15px;
+    padding: 5.5px 8px 5.5px 8px;
   }
 }

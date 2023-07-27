@@ -28,10 +28,16 @@
   width: 100%;
   top: 0;
   left: 0;
-  opacity: 0.4;
+  opacity: 0.35;
+}
+.contact-me {
+  color: greenyellow;
+  font-weight: bold;
 }
 .chat {
   width: 75%;
+  color: orange;
+  font-weight: bold;
 }
 
 .form {

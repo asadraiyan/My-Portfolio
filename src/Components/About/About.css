@@ -19,10 +19,14 @@
 
 .intro {
   font-size: 35px;
+  color: greenyellow;
+  font-weight: bold;
 }
 
 .intro-desc {
   font-size: 22px;
+  color: orange;
+  font-weight: bold;
 }
 
 .hero3-img::before {
@@ -35,7 +39,7 @@
   width: 100%;
   top: 0;
   left: 0;
-  opacity: 0.4;
+  opacity: 0.375;
 }
 
 .web-container {
@@ -146,7 +150,7 @@
 
 @media only screen and (max-width: 450px) {
   .hero3-img {
-    height: 55vh;
+    height: 63vh;
   }
 
   .about-content {
@@ -155,7 +159,7 @@
   }
 
   .intro {
-    font-size: 22px;
+    font-size: 24px;
   }
 
   .intro-desc {

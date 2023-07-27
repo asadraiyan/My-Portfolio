@@ -28,7 +28,18 @@
   width: 100%;
   top: 0;
   left: 0;
-  opacity: 0.3;
+  opacity: 0.25;
+}
+.title-heading {
+  color: greenyellow;
+  font-weight: bold;
+}
+.project-title {
+  font-weight: bold;
+}
+.projects-title {
+  font-weight: bold;
+  color: orange;
 }
 
 .project-card {
@@ -145,6 +156,9 @@
 
   .project-title {
     font-size: 20px;
+  }
+  .projects-title {
+    font-size: 22px;
   }
 
   .anchor {
