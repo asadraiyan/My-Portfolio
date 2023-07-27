@@ -113,6 +113,7 @@
   align-items: center;
   background-color: rgb(19, 19, 19, 0.8);
   font-family: "Poppins", sans-serif;
+  padding-top: 4rem;
 }
 
 @media only screen and (max-width: 900px) {
@@ -167,7 +168,7 @@
   }
 
   .skills {
-    font-size: 25px;
+    font-size: 28px;
   }
 
   .html-img {
