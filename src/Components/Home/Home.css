@@ -24,17 +24,17 @@
 }
 
 .hero {
-  width: 100%;
-  height: 100%;
+  font-size: 6rem;
+  letter-spacing: 3px;
+  text-align: center;
+  font-weight: 800;
 }
 
 .content {
   color: white;
   /* border: 2px solid red; */
-  width: 675px;
-  height: 200px;
-  display: flex;
-  flex-direction: column;
+  max-width: 90rem;
+  width: 55%;
   position: absolute;
   transform: translate(-50%, -50%);
   top: 50%;
@@ -43,20 +43,20 @@
 }
 
 .hello {
-  font-size: 40px;
+  font-size: 3.5rem;
+  letter-spacing: 5px;
+  text-align: center;
+  font-weight: 800;
   color: greenyellow;
 }
 
-.name {
-  font-size: 23px;
-  color: orange;
-  margin-top: 10px;
-}
-
 .bio {
-  font-size: 23px;
   color: orange;
-  margin-top: 10px;
+  font-size: 1.5rem;
+  text-align: center;
+  width: 100%;
+  line-height: 1.6;
+  margin-top: 30px;
 }
 
 .info {
@@ -64,15 +64,28 @@
   display: flex;
   flex-direction: row;
   font-family: "Poppins", sans-serif;
-  gap: 20px;
-  margin-top: 25px;
+  gap: 30px;
+  margin-top: 30px;
+  justify-content: center;
+  align-items: center;
 }
 
-.resume,
-.talk {
+.resume {
   font-size: 18px;
   padding: 3px 10px 3px 10px;
-  border: 2px solid rgb(172, 226, 92);
+  border: 3px solid rgb(172, 226, 92);
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+  background: none;
+  cursor: pointer;
+}
+.talk {
+  font-size: 18px;
+  padding: 6px 10px 6px 10px;
+  border: 3px solid rgb(172, 226, 92);
   color: white;
   border-radius: 6px;
   text-decoration: none;
@@ -83,21 +96,12 @@
 }
 
 .resume:hover {
-  background-color: greenyellow;
+  background-color: orange;
   color: #081b29;
 }
 
 .talk:hover {
-  background-color: greenyellow;
-  color: #081b29;
-}
-
-.talk-link {
-  text-decoration: none;
-  color: white;
-}
-
-.talk-link:hover {
+  background-color: orange;
   color: #081b29;
 }
 
@@ -126,9 +130,10 @@
 }
 
 .my-work {
-  color: white;
+  color: greenyellow;
   text-align: center;
   margin-top: 20px;
+  font-size: 2.3rem;
 }
 
 .card-1 {
@@ -224,16 +229,21 @@
     align-items: center;
     gap: 0rem;
   }
+  .content {
+    width: 90%;
+  }
 }
 
 @media only screen and (max-width: 700px) {
-  .content {
-    width: 370px;
-    height: 400px;
-  }
-
   .mask {
     height: 71vh;
+  }
+  .content {
+    width: 95%;
+  }
+  .hello {
+    font-size: 3rem;
+    letter-spacing: 4px;
   }
 }
 

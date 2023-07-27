@@ -30,6 +30,9 @@
   left: 0;
   opacity: 0.4;
 }
+.chat {
+  width: 75%;
+}
 
 .form {
   /* border: 2px solid white; */
@@ -128,6 +131,10 @@
   .submit-btn {
     width: 400px;
   }
+  .chat {
+    font-size: 18px;
+    width: 80% !important;
+  }
 }
 
 @media only screen and (max-width: 450px) {
@@ -174,9 +181,5 @@
 
   .contact-me {
     font-size: 30px;
-  }
-
-  .chat {
-    font-size: 18px;
   }
 }

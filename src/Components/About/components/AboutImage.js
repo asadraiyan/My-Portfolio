@@ -16,6 +16,11 @@ const AboutImage = () => {
           Well-organised person, problem solver and have a serious passion for
           building UI, Interested in the entire frontend spectrum.
         </p>
+        <p className="intro-desc">
+          I'm open to job opportunities where I can contribute, learn and grow.
+          If you have a good opportunity that matches my skills then don't
+          hesitate to contact me.
+        </p>
       </div>
     </div>
   );

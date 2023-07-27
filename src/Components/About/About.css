@@ -75,12 +75,17 @@
 
 .react-img {
   width: 80px;
-  height: 60px;
+  height: 55px;
 }
 .redux-img {
-  width: 55px;
-  height: 50px;
+  width: 50px;
+  height: 45px;
 }
+.exp-img {
+  width: 55px;
+  height: 55px;
+}
+
 .node-img {
   width: 70px;
   height: 50px;
@@ -177,12 +182,24 @@
   }
 
   .react-img {
-    width: 65px;
+    width: 70px;
     height: 50px;
   }
 
   .github-img {
     width: 50px;
     height: 50px;
+  }
+  .redux-img {
+    width: 45px;
+    height: 40px;
+  }
+  .node-img {
+    width: 67px;
+    height: 47px;
+  }
+  .exp-img {
+    width: 53px;
+    height: 53px;
   }
 }
