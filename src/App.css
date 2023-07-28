@@ -1,272 +1,276 @@
-@import url('https://fonts.googleapis.com/css2?family=Itim&family=Josefin+Sans:wght@300&family=Neonderthaw&family=Pacifico&family=Poppins:wght@300&family=Stalemate&family=Trade+Winds&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Itim&family=Josefin+Sans:wght@300&family=Neonderthaw&family=Pacifico&family=Poppins:wght@300&family=Stalemate&family=Trade+Winds&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: #000;
+  background-color: #000;
 }
 
 .logo {
-    font-family: 'Trade Winds', cursive;
-    font-size: 3rem;
-    font-weight: 100;
-    color: #f3f3f3;
+  font-family: "Trade Winds", cursive;
+  font-size: 3rem;
+  font-weight: 100;
+  color: #f3f3f3;
 }
 
 .navbar {
-    /* border-bottom: 2px solid #f3f3f3; */
-    display: flex;
-    flex-direction: row;
-    height: 80px;
-    align-items: center;
-    justify-content: space-around;
-    /* border: 2px solid red; */
-    position: fixed;
-    width: 100%;
-    z-index: 10;
-    background-color: rgb(19, 19, 19, 0.8);
-
-
+  /* border-bottom: 2px solid #f3f3f3; */
+  display: flex;
+  flex-direction: row;
+  height: 80px;
+  align-items: center;
+  justify-content: space-around;
+  /* border: 2px solid red; */
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  background-color: rgb(19, 19, 19, 0.8);
 }
 
 .navlink {
-    display: flex;
-    /* border: 2px solid green; */
-    gap: 4rem;
-    align-items: center;
+  display: flex;
+  /* border: 2px solid green; */
+  gap: 4rem;
+  align-items: center;
 }
 
 .navlink a,
 .sideNav a {
-    text-decoration: none;
-    font-family: 'Poppins', sans-serif;
-    font-size: 20px;
-    font-weight: 600;
-    color: #f3f3f3;
-
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #f3f3f3;
 }
 
 .sideNav {
-    flex-direction: column;
-    display: flex;
-    position: absolute;
-    top: 80px;
-    left: 0;
-    background-color: rgba(38, 36, 36, 0.9);
-    align-items: center;
-    width: 200px;
-    height: calc(100vh - 80px);
-    gap: 3rem;
-    padding-top: 20px;
-    transition: 0.3s all ease;
-    z-index: -3;
+  flex-direction: column;
+  display: flex;
+  position: absolute;
+  top: 80px;
+  left: 0;
+  background-color: rgba(38, 36, 36, 0.9);
+  align-items: center;
+  width: 200px;
+  height: calc(100vh - 80px);
+  gap: 3rem;
+  padding-top: 20px;
+  transition: 0.3s all ease;
+  z-index: -3;
 }
 
 .hidden {
-    left: -100%;
+  left: -100%;
 }
 
 .navlink a:hover {
-    color: rgb(175, 170, 160)
+  color: rgb(175, 170, 160);
 }
 
 .navlink .active a,
 .sideNav .active a {
-    color: rgb(175, 170, 160)
+  color: rgb(175, 170, 160);
 }
 
 .menu-icons {
-    font-size: 23px;
-    color: #f3f3f3;
+  font-size: 23px;
+  color: #f3f3f3;
 }
 
 .footer {
-    /* border: 2px solid white; */
-    width: 100%;
-    padding: 6rem, 0;
-    background-color: rgb(19, 19, 19, 0.8);
-    font-family: 'Poppins', sans-serif;
-    display: flex;
-    flex-direction: row;
-
-
+  /* border: 2px solid white; */
+  width: 100%;
+  padding: 6rem, 0;
+  background-color: rgb(19, 19, 19, 0.8);
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: row;
 }
 
 .footer-container {
-    /* border: 2px solid white; */
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-top: 20px;
-    width: 100%;
-
+  /* border: 2px solid white; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 20px;
+  width: 100%;
 }
 
 .location {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 0.7rem;
-    color: white;
-    font-size: 20px;
-    margin-right: 2rem;
+  /* border: 2px solid white; */
+  display: flex;
+  flex-direction: row;
+  color: white;
+  font-size: 20px;
+  margin-right: 2rem;
+}
+.location-icon {
+  /* border: 2px solid white; */
+  margin-top: 8.5px;
+}
+.phone-icon {
+  /* border: 2px solid white; */
+  margin-bottom: 2px;
 }
 
 .location p {
-    line-height: 40px;
+  line-height: 35px;
 }
 
 .address {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 
 .phn {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 
 .mail {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 
 .phone {
-    color: white;
-    font-size: 20px;
-    margin-right: 2rem;
-    margin-bottom: 0.7rem;
+  /* border: 2px solid white; */
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  margin-right: 2rem;
+  margin-top: 13px;
 }
 
 .email {
-    color: white;
-    font-size: 20px;
-    margin-right: 2rem;
+  /* border: 2px solid white; */
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  margin-right: 1.9rem;
 }
 
 .left {
-    height: 100%;
-    max-width: 100%;
-    display: flex;
-    flex-direction: column;
-    padding: 1rem;
-    justify-content: space-between;
-
+  height: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  justify-content: space-between;
 }
 
 .right-side {
-    /* border: 2px solid white; */
-    height: 100%;
-    max-width: 100%;
-    display: flex;
-    flex-direction: column;
-    padding: 1rem;
-    justify-content: space-between;
-    align-items: center;
-    font-family: 'Poppins', sans-serif;
-    color: white;
+  /* border: 2px solid white; */
+  height: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  color: white;
 }
 
 .build {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .social-container {
-    /* border: 2px solid white; */
-    width: 250px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-top: 20px;
+  /* border: 2px solid white; */
+  width: 260px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 20px;
 }
 
 .social {
-    font-size: 1.5rem;
-    color: white;
+  font-size: 1.5rem;
+  color: white;
 }
 
 .scroll {
-    /* border: 2px solid white; */
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 70px;
-    height: 68px;
-    margin-top: 20px;
-
+  /* border: 2px solid white; */
+  color: white;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: space-between;
+  width: 70px;
+  height: 67px;
+  margin-top: 12.5px;
 }
 
 .scroll-button {
-    font-size: 30px;
-    cursor: pointer;
+  font-size: 30px;
+  cursor: pointer;
+  margin-left: 3px;
 }
 
 .top {
-    font-size: 20px;
-    cursor: pointer;
+  font-size: 20px;
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 700px) {
-    .logo {
+  .logo {
+    font-size: 2.5rem;
+  }
 
-        font-size: 2.5rem;
-    }
+  .navlink a,
+  .sideNav a {
+    font-size: 18px;
+  }
 
-    .navlink a,
-    .sideNav a {
-        font-size: 18px;
-    }
-
-    .footer-container {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+  .footer-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 @media only screen and (max-width: 450px) {
+  .phone {
+    font-size: 18px;
+  }
+  .social-container {
+    width: 233px;
+  }
 
-    .phone {
+  .email {
+    font-size: 18px;
+  }
 
-        font-size: 18px;
+  .location {
+    font-size: 18px;
+  }
 
-    }
+  .build {
+    font-size: 18px;
+  }
 
-    .email {
+  .logo {
+    font-size: 2rem;
+  }
 
-        font-size: 18px;
+  .scroll-button {
+    font-size: 25px;
+    cursor: pointer;
+  }
 
-    }
+  .top {
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
 
-    .location {
-
-        font-size: 18px;
-    }
-
-    .build {
-
-        font-size: 18px;
-    }
-
-    .logo {
-
-        font-size: 2.0rem;
-    }
-
-    .scroll-button {
-        font-size: 25px;
-        cursor: pointer;
-    }
-
-    .top {
-        font-size: 18px;
-        cursor: pointer;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-
-    .scroll {
-        align-items: center;
-    }
+  .scroll {
+    align-items: center;
+    margin-top: 15px;
+  }
 }

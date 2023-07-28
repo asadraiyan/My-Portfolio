@@ -21,23 +21,19 @@ const Footer = () => {
       <div className="footer-container">
         <div className="left">
           <div className="location">
-            <ImLocation2 />
+            <ImLocation2 className="location-icon" />
             <div className="address">
               <p>541 A/P New Haider Ganj</p>
               <p>Campbell Road, Lucknow</p>
             </div>
           </div>
           <div className="phone">
-            <h4>
-              <FiPhoneOutgoing />
-              <span className="phn">7007498713</span>
-            </h4>
+            <FiPhoneOutgoing className="phone-icon" />
+            <span className="phn">7007498713</span>
           </div>
           <div className="email">
-            <h4>
-              <GrMail />
-              <span className="mail"> asadraiyan001@gmail.com</span>
-            </h4>
+            <GrMail className="mail-icon" />
+            <span className="mail"> asadraiyan001@gmail.com</span>
           </div>
         </div>
         <div className="scroll">
