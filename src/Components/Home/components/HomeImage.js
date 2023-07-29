@@ -15,7 +15,7 @@ const HomeImage = () => {
       <div className="content">
         <h1 className="hello">HEY, I'M ASAD RAIYAN</h1>
         <div className="bio">
-          A passionate and focused Frontend Developer for building user-friendly
+          A passionate and focused Frontend Developer, building user-friendly
           web applications that leads to the success of the overall product
         </div>
         <div className="info">
