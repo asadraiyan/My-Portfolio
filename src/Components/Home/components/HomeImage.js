@@ -20,7 +20,7 @@ const HomeImage = () => {
         </div>
         <div className="info">
           <a
-            href="https://drive.google.com/file/d/1DC8cnibbHMmTMx8jE3kgOzuHMWRWTIVE/view?usp=drivesdk"
+            href="https://drive.google.com/file/d/1L80hlR1xw3Ub0sRj1twaPAXGyMuyd2Ir/view?usp=drivesdk"
             className="resume"
             target="_blank"
             rel="noreferrer noopener"
