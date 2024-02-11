@@ -10,6 +10,39 @@ const HomePageProject = () => {
         </div>
         <div className="project-container">
           <div className="card-1">
+            <h2 className="title">Movieflix</h2>
+            <small className="date">
+              <time>5th Feb, 2024</time>
+            </small>
+            <p className="content-1">
+              Developed a feature-rich movie application using React.js and
+              integrated with the TMDB API.
+            </p>
+            <div className="btn-container-1">
+              <button className="btn-3">
+                <a
+                  href="https://movieflix-beta-black.vercel.app/"
+                  className="anchor-1"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  View Live
+                </a>
+              </button>
+              <button className="btn-4">
+                <a
+                  href="https://github.com/asadraiyan/Movieflix"
+                  className="anchor-1"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  View Source
+                </a>
+              </button>
+            </div>
+          </div>
+
+          <div className="card-1">
             <h2 className="title">Unique Collection</h2>
             <small className="date">
               <time>30th March, 2023</time>
@@ -64,38 +97,6 @@ const HomePageProject = () => {
               <button className="btn-4">
                 <a
                   href="https://github.com/asadraiyan/livechat-app"
-                  className="anchor-1"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                >
-                  View Source
-                </a>
-              </button>
-            </div>
-          </div>
-          <div className="card-1">
-            <h2 className="title">MERN Register</h2>
-            <small className="date">
-              <time>5th June, 2023</time>
-            </small>
-            <p className="content-1">
-              Created an app using MERN stack. This app allows you to register
-              yourself and create a profile of your own.
-            </p>
-            <div className="btn-container-1">
-              <button className="btn-3">
-                <a
-                  href="https://asad-mern-register.netlify.app/"
-                  className="anchor-1"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                >
-                  View Live
-                </a>
-              </button>
-              <button className="btn-4">
-                <a
-                  href="https://github.com/asadraiyan/mern-stack"
                   className="anchor-1"
                   target="_blank"
                   rel="noreferrer noopener"

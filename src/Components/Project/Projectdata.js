@@ -1,6 +1,15 @@
 export const Projectdata = [
   {
     id: 1,
+    name: "Movieflix",
+    date: "5th February, 2024",
+    description:
+      "Developed a feature-rich movie application using React.js and integrated with the TMDB API, allowing users to search, browse, and discover movies, view detailed information including ratings and reviews, personalized recommendations with advanced filtering and sorting options. You can see it working here:",
+    appLink: "https://movieflix-beta-black.vercel.app/",
+    sourceLink: "https://github.com/asadraiyan/Movieflix",
+  },
+  {
+    id: 2,
     name: "Unique Collection",
     date: "30th March, 2023",
     description:
@@ -9,7 +18,7 @@ export const Projectdata = [
     sourceLink: "https://github.com/asadraiyan/E-Mart",
   },
   {
-    id: 2,
+    id: 3,
     name: "Live Chat App",
     date: "20th June, 2023",
     description:
@@ -18,7 +27,7 @@ export const Projectdata = [
     sourceLink: "https://github.com/asadraiyan/livechat-app",
   },
   {
-    id: 3,
+    id: 4,
     name: "MERN Register",
     date: "5th June, 2023",
     description:
@@ -27,7 +36,7 @@ export const Projectdata = [
     sourceLink: "https://github.com/asadraiyan/mern-stack",
   },
   {
-    id: 4,
+    id: 5,
     name: "Weather App",
     date: "6th March, 2023",
     description:
@@ -36,7 +45,7 @@ export const Projectdata = [
     sourceLink: "https://github.com/asadraiyan/react-weather-app",
   },
   {
-    id: 5,
+    id: 6,
     name: "Stopwatch",
     date: "26th February, 2023",
     description:
@@ -45,7 +54,7 @@ export const Projectdata = [
     sourceLink: "https://github.com/asadraiyan/react-stopwatch",
   },
   {
-    id: 6,
+    id: 7,
     name: "Food Gallery App",
     date: "10th February, 2023",
     description:
@@ -54,7 +63,7 @@ export const Projectdata = [
     sourceLink: "https://github.com/asadraiyan/React-food--filter-gallery",
   },
   {
-    id: 7,
+    id: 8,
     name: "Quiz App",
     date: "5th February, 2023",
     description:
@@ -63,7 +72,7 @@ export const Projectdata = [
     sourceLink: "https://github.com/asadraiyan/react-quiz-app",
   },
   {
-    id: 8,
+    id: 9,
     name: "Todo List App",
     date: "30th January, 2023",
     description:
@@ -72,7 +81,7 @@ export const Projectdata = [
     sourceLink: "https://github.com/asadraiyan/react-todos-list-app",
   },
   {
-    id: 9,
+    id: 10,
     name: "TextUtils App",
     date: "24th January, 2023",
     description:
@@ -81,7 +90,7 @@ export const Projectdata = [
     sourceLink: "https://github.com/asadraiyan/react-textutils",
   },
   {
-    id: 10,
+    id: 11,
     name: "Tic Tac Toe Game",
     date: "20th January, 2023",
     description:
@@ -90,7 +99,7 @@ export const Projectdata = [
     sourceLink: "https://github.com/asadraiyan/Tic-Tac-Toe-Game",
   },
   {
-    id: 11,
+    id: 12,
     name: "Calendar App",
     date: "16th January, 2023",
     description:
@@ -99,7 +108,7 @@ export const Projectdata = [
     sourceLink: "https://github.com/asadraiyan/Calendar-app",
   },
   {
-    id: 12,
+    id: 13,
     name: "Weather App",
     date: "10th January, 2023",
     description:
@@ -109,7 +118,7 @@ export const Projectdata = [
   },
 
   {
-    id: 13,
+    id: 14,
     name: "Calculator App",
     date: "3rd January, 2023",
     description:
@@ -118,7 +127,7 @@ export const Projectdata = [
     sourceLink: "https://github.com/asadraiyan/Calculator-app",
   },
   {
-    id: 14,
+    id: 15,
     name: "Analog Clock",
     date: "30th December, 2022",
     description:
@@ -127,7 +136,7 @@ export const Projectdata = [
     sourceLink: "https://github.com/asadraiyan/Analog-Clock-app",
   },
   {
-    id: 15,
+    id: 16,
     name: "Food Delivery App",
     date: "25 December, 2022",
     description:

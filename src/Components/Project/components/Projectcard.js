@@ -1,35 +1,43 @@
-import React from 'react'
+import React from "react";
 // import './Projectcard.css';
 import { Projectdata } from "../Projectdata";
 
 const Projectcard = () => {
   return (
     <div className="project-card">
-      {
-        Projectdata.map((currelement) => {
-          return (
-            <div className="card" key={currelement.id}>
-              <h2 className='project-title'>{currelement.name}</h2>
-              <small className='date'>
-                <time>{currelement.date}</time>
-              </small>
-              <p className='contents'>{currelement.description}</p>
-              <div className="btn-container">
-                <button className='btn-1'>
-                  <a href={currelement.appLink} className='anchor' target="_blank">View Live</a>
-                </button>
-                <button className='btn-2'>
-                  <a href={currelement.sourceLink} className='anchor' target="_blank">View Source</a>
-                </button>
-              </div>
+      {Projectdata.map((currelement) => {
+        return (
+          <div className="card" key={currelement.id}>
+            <h2 className="project-title">{currelement.name}</h2>
+            <small className="date">
+              <time>{currelement.date}</time>
+            </small>
+            <p className="contents">{currelement.description}</p>
+            <div className="btn-container">
+              <button className="btn-1">
+                <a
+                  href={currelement.appLink}
+                  className="anchor"
+                  target="_blank"
+                >
+                  View Live
+                </a>
+              </button>
+              <button className="btn-2">
+                <a
+                  href={currelement.sourceLink}
+                  className="anchor"
+                  target="_blank"
+                >
+                  View Source
+                </a>
+              </button>
             </div>
-          )
-        })}
-
+          </div>
+        );
+      })}
     </div>
+  );
+};
 
-
-  )
-}
-
-export default Projectcard
+export default Projectcard;
